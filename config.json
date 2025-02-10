@@ -1,0 +1,11 @@
+{
+    "model_files": [
+        "./data/generated_model_1.obj"
+    ],
+    "num_epochs": 50,
+    "batch_size": 16,
+    "num_vertices": 1000,
+    "learning_rate": 0.0002,
+    "checkpoint_dir": "./checkpoints",
+    "log_dir": "./logs"
+}
