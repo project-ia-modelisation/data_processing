@@ -9,6 +9,8 @@ import time
 import torch
 import trimesh
 import numpy as np
+import tensorflow as tf
+import pandas as pd
 
 def correct_invalid_faces(model):
     """
@@ -120,7 +122,7 @@ def evaluate_model_on_ground_truth():
     except Exception as e:
         print(f"❌ Erreur inattendue : {str(e)}")
 
-def main():
+def main_pipeline():
     print("=== 🚀 Lancement du pipeline IA ===")
 
     if not os.path.exists("./data/model.pth"):
@@ -150,5 +152,9 @@ def main():
     except Exception as e:
         print(f"❌ Erreur inattendue : {e}")
 
+def main():
+    print("Initialisation du projet de traitement de données pour le modèle d'IA")
+
 if __name__ == "__main__":
     main()
+    main_pipeline()
