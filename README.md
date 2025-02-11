@@ -63,7 +63,7 @@ train.py                 # Code d'entraînement du modèle
 *python -m venv venv*
 
 #### Activer l'environnement virtuel
-*.venv\Scripts\Activate*
+*.venv\scripts\activate.ps1*
 
 #### Vérifier que l'environnement est bien activé 
 *$Env:VIRTUAL_ENV*
