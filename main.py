@@ -9,8 +9,6 @@ import time
 import torch
 import trimesh
 import numpy as np
-import tensorflow as tf
-import pandas as pd
 
 def correct_invalid_faces(model):
     """
