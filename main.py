@@ -152,6 +152,7 @@ def main_pipeline():
 
 def main():
     print("Initialisation du projet de traitement de données pour le modèle d'IA")
+    print ("Hello data!")
 
 if __name__ == "__main__":
     main()
