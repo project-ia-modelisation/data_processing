@@ -5,3 +5,4 @@ chardet
 scipy
 stl
 numpy-stl
+opencv-python

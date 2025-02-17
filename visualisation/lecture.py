@@ -1,10 +1,9 @@
 import pickle
 import trimesh
-from stl import mesh
+from stl.mesh import Mesh
 import numpy as np
-import open3d as o3d
 import os
-import cv2  # Add OpenCV import
+import cv2
 
 # Lecture d'un fichier pkl
 def read_pkl(file_path):
@@ -47,7 +46,7 @@ def save_stl_trimesh(mesh, file_path):
 # Lecture d'un fichier STL avec numpy-stl
 def read_stl_numpy(file_path):
     try:
-        mesh_data = mesh.Mesh.from_file(file_path)
+        mesh_data = Mesh.from_file(file_path)
         print(f"Lecture du fichier STL avec numpy-stl réussie : {file_path}")
         return mesh_data
     except Exception as e:
