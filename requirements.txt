@@ -6,3 +6,4 @@ scipy
 stl
 numpy-stl
 opencv-python
+open3d
