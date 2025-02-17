@@ -4,3 +4,4 @@ trimesh
 chardet
 scipy
 stl
+numpy-stl
