@@ -1,0 +1,10 @@
+README.md
+setup.py
+data/__init__.py
+model_serving.egg-info/PKG-INFO
+model_serving.egg-info/SOURCES.txt
+model_serving.egg-info/dependency_links.txt
+model_serving.egg-info/top_level.txt
+scripts/__init__.py
+scripts/openFile.py
+scripts/preprocess.py
