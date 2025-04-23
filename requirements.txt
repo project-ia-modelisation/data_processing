@@ -1,4 +1,3 @@
-torch
 numpy
 trimesh
 chardet
@@ -6,4 +5,10 @@ scipy
 stl
 numpy-stl
 opencv-python
+torch
+torchvision 
+torchaudio
+deepspeed
+torch==1.13.1
+torch3d
 open3d
